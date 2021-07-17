@@ -6,7 +6,10 @@ This project was part of our analog electronics project work .This project was a
 
 # THEORY:
 <br/>
+<br/>
 ADVANTAGE OVER CONVENTIONAL ICs
+<br/>
+<br/>
 <br/>
 The main advantage of the proposed two transistor low battery indicator circuit is its
 very low current consumption compared to the IC counterparts which consume
@@ -27,7 +30,11 @@ using large N type silicon wafers while PNP transistor requires 3 times more Si
 chip surface, so it gets uneconomical when the chip costs are a big part of the
 component. 
 <br/>
+<br/>
+<br/>
 WHAT IS HFE AND BETA
+<br/>
+<br/>
 <br/>
 HFE is an abbreviation that stands for HYBRID parameter FORWARD current
 gain, common EMITTER, and is a measure of DC gain of a junction transistor. For some transistors HFE readings may be done at several crucial frequencies as well
@@ -39,6 +46,8 @@ about DC and/or AC current gain in a known circuit.
 # USE OF ZENER AND BJTs IN THE CIRCUIT:
 <br/>
 A)Zener diode
+<br/>
+<br/>
 The zener diode is used in the circuit to regulate voltage so that the voltage across
 the led does not cross a particular voltage.This helps in preventing any damage to the
 diode.If the voltage in the diode crosses a particular threshold there are chances that
@@ -48,6 +57,8 @@ used for different ranges of input voltages.This can be done with a few tweaks h
 and there of the zener diode and the resistances. This is aptly explained in the diagram attached. 
 <br/>
 B) BI-Junction Transistor:
+<br/>
+<br/>
 The use of a BJT in this circuit is very pivotal in providing the current amplification.The
 beta factor of the npn transistor used here(BC547/BC549) varies between 100-800
 depending on the diode model A,B or C. This provides an amplification to the current.Otherwise the current through the led
@@ -59,6 +70,8 @@ maintained between the resistances and the zener diode.
 <br/>
 
 # Range of operation of the low power/battery indicator:
+<br/>
+<br/>
 <br/>
 This discussion basically discusses why the following components were used and
 forms the basis of the circuit diagram. Assuming that the circuit operates in the range of (V-,V+) where V- is the lowest
@@ -72,6 +85,8 @@ amplification of 100(ideal beta amplification) comes to be around 1.9V. One more
 requirements for the diode are very low.The power dissipated as well as required for
 the circuit is very low.
 <br/>
+<br/>
+<br/>
 For V-=1.9V
 You want the LED to turn on at about 1.9V. I am going to make the assumption you
 want it to work in the range of 1.9V to 9.6V, so we'll use those two as the extremes of
@@ -82,10 +97,14 @@ specifications are made, I will assume the LED current is 1-10mA( a few mAs) and
 that the red LED adheres to commonalities, needing about 1.8V at that current. Here
 we go!:
 <br/>
+<br/>
+<br/>
 Lowest V+ = 1.9V, I(led) = 0.001A, V(led) = 1.8V, means: R(led) = (1.9V - 0.7) / 0.001A
 =1.1 k Ohm. LED current at 9.6V: I(led-9.6) = (9.6V - 1.9V) / 1kOhm =8mA
 The current into the base of the LED's transistor then becomes 80uA at 9.6V and
 10uA at 1.9V (divided by hfe, which is assumed 100). Which means:
+<br/>
+<br/>
 <br/>
 Bias Resistor value, maximum: Rbias = (V+ - Vbase) / I(base) = (9.6V - 0.7V) / 80uA = 1271kOhm; or (1.8V - 0.7V)/10uA = 110kOhm (1.8v assuming lowest v for led to
 light) , meaning 1000kOhm is our upper limit.However we have used a resistor of
