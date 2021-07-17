@@ -3,6 +3,9 @@
 This project was part of our analog electronics project work .This project was a team project consisting of 4 members . The key roles played included virtual testing and physical testing of the circuit and analyse the working of the circuit.
 
 <br/>
+<p align="center">
+  <img width="600" height="400" src="circuit diagram.png" alt="Conversation diagram">
+</p>
 
 # THEORY:
 <br/>
