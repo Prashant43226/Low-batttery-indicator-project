@@ -102,11 +102,11 @@ we go!:
 <br/>
 Lowest V+ = 1.9V, I(led) = 0.001A, V(led) = 1.8V, means: R(led) = (1.9V - 0.7) / 0.001A
 =1.1 k Ohm. LED current at 9.6V: I(led-9.6) = (9.6V - 1.9V) / 1kOhm =8mA
+<p align="center">
+  <img width="600" height="400" src="simulation2.png" alt="Conversation diagram">
+</p>
 The current into the base of the LED's transistor then becomes 80uA at 9.6V and
 10uA at 1.9V (divided by hfe, which is assumed 100). Which means:
-<br/>
-<br/>
-<br/>
 Bias Resistor value, maximum: Rbias = (V+ - Vbase) / I(base) = (9.6V - 0.7V) / 80uA = 1271kOhm; or (1.8V - 0.7V)/10uA = 110kOhm (1.8v assuming lowest v for led to
 light) , meaning 1000kOhm is our upper limit.However we have used a resistor of
 22kohm which is well inside the safe range. The transitor T1 is used just to amplify current to the second transistor.A currrent
