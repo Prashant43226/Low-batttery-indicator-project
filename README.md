@@ -117,3 +117,15 @@ battery is at the trip level, the zener will start to cut off, so its loss will 
 minimize, but then, of course your LED will be draining 2mA. For a reliable operation you want Iz not to be too far from its optimum, i.e. not a
 factor of 100. But there are probably types that can give decent effects with a bias
 current of 0.5mA.
+
+<br/>
+<br/>
+
+# OBSERVATIONS:
+
+<br/>
+<br/>
+The volatge range for which the simulation works properly is:
+V+(highest voltage)=9.6V
+V-(lowest voltage)=1.9V
+The actual range of values are approximately equal.
