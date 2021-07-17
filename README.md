@@ -70,6 +70,9 @@ maintained between the resistances and the zener diode.
 
 <br/>
 
+<p align="center">
+  <img width="600" height="400" src="ciruit diagram.png" alt="Conversation diagram">
+</p>
 # Range of operation of the low power/battery indicator:
 <br/>
 <br/>
@@ -88,6 +91,9 @@ the circuit is very low.
 <br/>
 <br/>
 <br/>
+<p align="center">
+  <img width="600" height="400" src="simulation1.png" alt="Conversation diagram">
+</p>
 For V-=1.9V
 You want the LED to turn on at about 1.9V. I am going to make the assumption you
 want it to work in the range of 1.9V to 9.6V, so we'll use those two as the extremes of
