@@ -3,6 +3,7 @@
 This project was part of our analog electronics project work .This project was a team project consisting of 4 members . The key roles played included virtual testing and physical testing of the circuit and analyse the working of the circuit.
 
 <br/>
+
 # THEORY:
 <br/>
 ADVANTAGE OVER CONVENTIONAL ICs
