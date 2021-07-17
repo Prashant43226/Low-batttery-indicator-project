@@ -56,8 +56,9 @@ the diode. The voltage of the diode also controls the resistances in the circuit
 used for different ranges of input voltages.This can be done with a few tweaks here
 and there of the zener diode and the resistances. This is aptly explained in the diagram attached. 
 <br/>
-B) BI-Junction Transistor:
 <br/>
+<br/>
+B) BI-Junction Transistor:
 <br/>
 The use of a BJT in this circuit is very pivotal in providing the current amplification.The
 beta factor of the npn transistor used here(BC547/BC549) varies between 100-800
