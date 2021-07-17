@@ -35,6 +35,7 @@ as DC. BETA is a better term for common-base designs, or just a general statemen
 about DC and/or AC current gain in a known circuit.
 
 <br/>
+
 # USE OF ZENER AND BJTs IN THE CIRCUIT:
 <br/>
 A)Zener diode
@@ -56,6 +57,7 @@ very high current flowing through the LED.Hence a proper balance is required to 
 maintained between the resistances and the zener diode.
 
 <br/>
+
 # Range of operation of the low power/battery indicator:
 <br/>
 This discussion basically discusses why the following components were used and
